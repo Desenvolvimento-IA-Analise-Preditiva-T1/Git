@@ -1,7 +1,10 @@
-# Instalar o Git no sistema operacional
+# GIT
 
+---
 
 ### [Install Git](https://git-scm.com/install/windows)
+
+### [Documentação Git](https://docs.github.com/pt/get-started)
 
 ---
 
