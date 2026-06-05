@@ -1,5 +1,7 @@
 # Instalar o Git no sistema operacional
 
+[Install Git](https://git-scm.com/install/windows)
+
 Git - Install for Linux
 
 ### Ubuntu:
