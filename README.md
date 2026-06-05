@@ -5,9 +5,7 @@
 
 ---
 
-Git - Install for Linux
-
-### Ubuntu:
+### Git - Install for Linux/ Ubuntu (derivados):
 
 ```bash
 sudo apt-get install git
@@ -15,6 +13,8 @@ sudo apt-get install git
 git config --global user.name "UsuarioGit"
 git config --global user.email seuEmail@gmail.com
 ```
+
+---
 
 # Conectando GitHub a sua máquina via SSH
 
