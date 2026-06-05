@@ -104,8 +104,9 @@ Para não mexermos direto na versão final (`main`), criaremos uma branch interm
 
 * **Pelo site do GitHub:** Clique no menu que indica `main` no canto superior esquerdo, digite `development` e selecione *"Create branch: development from 'main'"*.
 * **Aviso para o restante do grupo:** Após a criação na nuvem, os outros integrantes precisam rodar o comando abaixo para atualizar seus terminais locais:
-  ```bash
-git fetch origin`
+```
+git fetch origin
+```
 
 ## 🛠️ Fase 2: O Ciclo de Desenvolvimento Diário (GitHub Flow)
 
