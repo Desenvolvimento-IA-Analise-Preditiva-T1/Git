@@ -217,14 +217,34 @@ Bash
 # 1. Iniciar o dia atualizado
 git checkout development && git pull origin development
 
-# 2. Criar espaço de trabalho
-git checkout -b feature/nova-tarefa
+# 2. Visualizar as branches (a atual fica marcada com asterisco)
+git branch
 
-# 3. Salvar alterações (repetir durante o dia)
-git add . && git commit -m "Atualiza progresso"
+# 3. Criar uma nova branch local para a tarefa
+git checkout -b refactor/add_info_readme_02   
 
-# 4. Enviar para o GitHub
-git push origin feature/nova-tarefa
+# 4. Permitir visualizar o status da branch (ver o que foi alterado)
+git status
+
+# 5. Adicionar as modificações para o salvamento
+git add .
+
+# 6. Implementar na árvore de dependências as modificações com uma mensagem explicativa
+git commit -m "code review"
+
+# 7. Subir a branch rascunho para o ambiente na nuvem (GitHub)
+git push origin refactor/add_info_readme_02
+
+# [PAUSA]: Aqui o grupo faz a revisão e o Merge visual no site do GitHub.
+
+# 8. Retornar para a branch de desenvolvimento após o merge na nuvem
+git checkout development
+
+# 9. Atualizar a branch de desenvolvimento local com o código novo do grupo
+git pull origin development
+
+# 10. Agora sim, com segurança, deletar a branch local que já foi usada
+git branch -D refactor/add_info_readme_02
 ```
 
 ## 🛡️ Gerenciamento de Crises: Resolução de Conflitos
