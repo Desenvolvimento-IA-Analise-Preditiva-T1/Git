@@ -97,6 +97,12 @@ cd nome_do_repositorio`
     ```
     git branch
     ```
+
+- Lista TODAS as branches (locais e remotas)
+
+    ```
+    git branch -a
+    ```
     
 
 `### Passo 0.1: Criando o Ambiente de Desenvolvimento (`development`)
